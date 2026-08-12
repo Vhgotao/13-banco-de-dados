@@ -4,8 +4,9 @@ public class Categoria {
 
     public Categoria(int id, String categoria) {
         this.id = id;
-        this.categoria = categoria;
+        this.categoria = this.categoria;
     }
+
 
     public int getId() {
         return id;
